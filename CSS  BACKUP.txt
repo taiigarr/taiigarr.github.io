@@ -51,6 +51,7 @@ body {
 	background-repeat:no-repeat;
 	background-position:center;
 	background-position-x:52%;
+	box-shadow: 0px 2px 44px #888888;
 }
 
 .banner > .banner-image {
