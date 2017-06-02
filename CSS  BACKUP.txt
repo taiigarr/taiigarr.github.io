@@ -65,12 +65,15 @@ body {
 }
 .nav .nav-hamburger { 
 	display:none;
+	height:56px;
+	margin-top: 10px;
 }
 .nav .nav-wrapper { 
 	max-height:0;
 	transition: max-height 0.9s;
 	width:100%;
-	opacity:0.6;
+	position:absolute;
+	text-align:center;
 }
 .nav .nav-wrapper.nav-open { 
 	max-height:400px;
@@ -80,13 +83,15 @@ body {
 .banner {
 	height:300px;
 }
+
   .nav .nav-hamburger { 
 	display:inline-block;
 	cursor:pointer;
   }
   .nav .nav-wrapper { 
 	overflow:hidden;
-	background-color:black;
+	background: rgba(0,0,0,.5);
+	
   }
   .nav .nav-wrapper.nav-open { 
 	position:absolute;
@@ -97,6 +102,7 @@ body {
 	display:block;
 	padding: 10px;
 	height:auto;
+
 	}
   .nav-item a{ 
 	color:white;
