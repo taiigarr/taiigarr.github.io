@@ -73,7 +73,7 @@ body {
 	transition: max-height 0.9s;
 	width:100%;
 	position:absolute;
-	text-align:center;
+	
 }
 .nav .nav-wrapper.nav-open { 
 	max-height:400px;
