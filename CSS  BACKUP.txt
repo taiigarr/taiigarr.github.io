@@ -1,0 +1,104 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Arial', serif;
+}
+.nav {
+	text-align:right;
+	position:absolute;
+	width:100%;
+	background-color: #ffffff;
+	color: #000000;
+	list-style: none;
+	text-align: right;
+	top:0;
+}
+.logo {
+	color: #000000;
+	font-family: 'Yesteryear', cursive;
+	float: left;
+	padding-left: 25px;
+	font-size: 38px;
+	font-weight: bold;
+}
+.logo > a {
+	text-decoration: none;
+	color: #000000;
+}
+.nav-item > a {
+	text-decoration: none;
+	color: #000000;
+}
+.nav-item {
+	display: inline-flex;
+	align-items: center;
+    justify-content: center;
+	padding: 0 25px;
+	height: 56px; 
+}
+.nav-item:hover {
+	/*background-color:red;*/
+}
+.banner {
+	width: 100%;
+	display: block;
+	margin-top:56px;
+	background-image:url('Images/tigerImgCropped.jpg');
+	height:500px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position-x:52%;
+}
+
+.banner > .banner-image {
+	width: 100%;
+	display: block;
+}
+
+
+.nav .nav-item a:hover {
+	color: #c1c1c1;
+}
+.nav .logo {
+	float:left;
+}
+.nav .nav-hamburger { 
+	display:none;
+}
+.nav .nav-wrapper { 
+	max-height:0;
+	transition: max-height 0.9s;
+	width:100%;
+	opacity:0.6;
+}
+.nav .nav-wrapper.nav-open { 
+	max-height:400px;
+}
+
+@media only screen and (max-width: 1000px){
+.banner {
+	height:300px;
+}
+  .nav .nav-hamburger { 
+	display:inline-block;
+	cursor:pointer;
+  }
+  .nav .nav-wrapper { 
+	overflow:hidden;
+	background-color:black;
+  }
+  .nav .nav-wrapper.nav-open { 
+
+	}
+  .nav-item { 
+	display:block;
+	padding: 10px;
+	height:auto;
+	}
+  .nav-item a{ 
+	color:white;
+	}
+}
+
+
