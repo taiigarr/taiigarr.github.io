@@ -12,6 +12,8 @@ body {
 	list-style: none;
 	text-align: right;
 	top:0;
+	font-family: 'Bubbler One', sans-serif;
+	font-size:17px;
 }
 .logo {
 	color: #000000;
@@ -79,7 +81,7 @@ body {
 	max-height:400px;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 900px){
 .banner {
 	height:300px;
 }
@@ -90,16 +92,13 @@ body {
   }
   .nav .nav-wrapper { 
 	overflow:hidden;
-	background: rgba(0,0,0,.5);
+	background: rgba(0,0,0,.6);
 	text-align:center;
-	
 	
   }
   .nav .nav-wrapper.nav-open { 
 	position:absolute;
     left:0;
-    background: rgba(0,0,0,.5);
-	
 	}
   .nav-item { 
 	display:block;
