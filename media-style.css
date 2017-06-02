@@ -65,12 +65,14 @@ body {
 }
 .nav .nav-hamburger { 
 	display:none;
+	height:56px;
+	margin-top: 10px;
 }
 .nav .nav-wrapper { 
 	max-height:0;
 	transition: max-height 0.9s;
 	width:100%;
-	opacity:0.6;
+	position:absolute;
 }
 .nav .nav-wrapper.nav-open { 
 	max-height:400px;
@@ -86,10 +88,12 @@ body {
   }
   .nav .nav-wrapper { 
 	overflow:hidden;
-	background-color:black;
+	background: rgba(0,0,0,.5);
   }
   .nav .nav-wrapper.nav-open { 
-
+	position:absolute;
+    left:0;
+    background: rgba(0,0,0,.5);
 	}
   .nav-item { 
 	display:block;
